@@ -1,0 +1,14 @@
+.ba-header{
+	width: 100%;
+	padding-top: 10px;
+
+	a{
+		font-family: 'ProximaNova', sans-serif;
+		font-size: 24px;
+		font-weight: 600;
+		color: $white;
+	}
+	:hover{
+		color: $primary-color;
+	}
+}

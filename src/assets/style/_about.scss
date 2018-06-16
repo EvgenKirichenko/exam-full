@@ -1,0 +1,78 @@
+.ba-about{
+	background: #ebebeb;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	@include breakpoint (medium){
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	@include breakpoint (large){
+		padding-top: 125px;
+		padding-bottom: 125px;
+	}
+	&__img{
+		background: url("../img/about-img.jpg") no-repeat 50% / cover;
+		text-align: center;
+		padding-top: 75px;
+	}
+	&__img-icon{
+		padding-bottom: 40px;
+	}
+	&__title{
+		font-family: ProximaNova;
+		color:  $white;
+		font-size: 35.94px;
+		font-weight: 600;
+	}
+	&__info{
+		padding-top: 75px;
+	}
+	&__info-text{
+		margin-bottom: 75px;
+		@include breakpoint (medium){
+			margin-bottom: 125px;
+
+		}
+	}
+}
+.ba-services{
+	text-align: center;
+	background-color:  #ebebeb;
+	&__cell{
+		padding-top: 100px;
+		padding-left: 75px;
+		padding-right: 75px;
+		padding-bottom: 100px;
+		@include breakpoint (small only){
+			margin: 10px;
+		}
+	}
+	&__cell-title{
+		font-family: PTSans;
+		font-size: 24px;
+		font-weight: 700;
+		margin-top: 25px;
+	}
+	&__cell-desc{
+		font-family: PTSans;
+		font-size: 18px;
+		font-style: italic;
+
+	}
+	&__column-3{
+		background: #c2bfda url("../img/bg-services.jpg") no-repeat 50% / cover;
+		color: $white;
+		padding-top: 115px;
+	}
+	&__title{
+		color:  #fefcfe;
+		font-size: 36px;
+		font-weight: 600;
+		text-transform: uppercase;
+		padding-top: 30px;
+	}
+
+}
+.ba-gray{
+	background-color:  #c2bfda;
+}

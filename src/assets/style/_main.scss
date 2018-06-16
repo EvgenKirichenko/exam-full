@@ -1,0 +1,56 @@
+svg{
+	display: inline-block;
+	vertical-align: middle;
+	@include ba-transition('fill, stroke');
+}
+a,
+[type="submit"],
+[type="button"],
+button{
+	@include ba-transition;
+}
+.ba-button{
+	border: 1px solid #7d7a7c;
+	padding: 18px 52px;
+	color: #7d7a7c;
+	&:hover{
+		border-color: $primary-color;
+	}
+}
+//---section hero ---//
+.ba-hero{
+	background: #b3acc9 url("../img/bg-hero.jpg") no-repeat 50% / cover;
+	position: relative;
+	color: $white;
+	&__title{
+		text-transform: uppercase;
+		font-weight: 700;
+		padding-top: 30px;
+		@include breakpoint (medium){
+			padding-top: 75px;
+		}
+		@include breakpoint (medium){
+			padding-top: 305px;
+		}
+	}
+	&__subtitle{
+		font-style: italic;
+		font-size: 30px;
+		padding-bottom: 30px;
+		@include breakpoint(medium){
+		padding-bottom: 75px;
+		}
+		@include breakpoint(medium){
+		padding-bottom: 500px;
+		}
+		@include breakpoint (small only){
+		font-size: 20px;
+		}
+
+	}
+	&__title, &__subtitle{
+		margin: 0 auto;
+		text-align: center;
+	}
+}
+

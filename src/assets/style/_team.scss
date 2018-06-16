@@ -1,0 +1,30 @@
+.ba-team{
+	background: #ebebeb;
+	padding-top: 50px;
+	text-align: center;
+	z-index: -1;
+	&__icon{
+		margin-bottom: 35px;
+	}
+	&____team-title{
+		margin-bottom: 150px;
+	}
+}
+.ba-slider__team-slide{
+	position: relative;
+	background: #fff;
+	margin: 0 10px;
+	padding-top: 150px;
+	text-align: center;
+	z-index: -1;
+	img{
+		position: absolute;
+		top: -50%;
+		z-index: 5;
+	}
+}
+.ba-social{
+	background: $primary-color;
+	color: #fff;
+	padding: 10px;
+}

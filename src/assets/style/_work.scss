@@ -1,0 +1,21 @@
+.ba-works{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: #b4b1d5 url("../img/bg-works.jpg") no-repeat 50% / cover;
+	text-align: center;
+	img{
+		margin-bottom: 30px;
+
+	}
+	&__title{
+		font-family: ProximaNova;
+		color:  #fefcfe;
+		font-size: 36px;
+		font-weight: 600;
+		text-transform: uppercase;
+	}
+	&__slider{
+		margin: 0 auto;
+		max-width: 738px;
+	}
+}
